@@ -14,6 +14,7 @@ def start():
     if game_state == 'stopped':
         game_state = 'started'
         score = 0
+        pressed_arrow = None
         current_arrow = ()
         score_label.config(text="your score\n 0")
         instruction_label.config(text="")
